@@ -22,6 +22,7 @@ header {
   padding-bottom: 20px;
 }
 
+
 img.logo {
   width: 200px;
   margin: auto;
@@ -256,4 +257,46 @@ a.art4{
   background-color:white;
   width:44%;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.5);
+}
+footer{
+  color:white;
+background-color:black;
+padding-top:30px;
+padding-left:2%;
+}
+img.footer{
+color:white;
+width:300px;
+}
+div.la{
+  display:flex;
+}
+ul{
+  margin-left:0px;
+  padding:0px;
+}
+div.li{font-size:22px;
+  margin-right:5%;
+  margin-top:auto;
+margin-bottom:auto;}
+a{
+text-decoration:none;
+color:white;
+}
+ul{list-style:none;
+}
+p.li{width:300px;
+font-size:22px;
+font-weight:500;}
+li{
+  margin-bottom:5px;
+  width:90%;
+color:white;
+list-style:none;
+display:flex;}
+
+@media screen and (max-width:750px){
+  div.p3{display:block;}
+  div.l1{display:block;}
+  div.l2{display:block;}
 }
