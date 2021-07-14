@@ -177,7 +177,12 @@ h2.p4{
   margin-left:auto;
   margin-right:auto;
 }
-p.nouveau{background-color:;}
+p.nouveau{
+  height:35px;
+ text-align:center;
+  width:15%;
+  background-color:#71d7be;
+  color: #278870;}
 
 div.p4{
   width:98%;
