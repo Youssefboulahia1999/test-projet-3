@@ -24,11 +24,16 @@ a.retour{
   margin-bottom:auto;
 }
 
-img.logo{
+p.logo{
+  font-size:250%;
+  margin: auto;
+  font-family: 'Shrikhand', cursive;
   margin-left:auto;
   margin-right:auto;
   text-align:center;
-  width:30%;
+  white-space:normal;
+  overflow:auto;
+  text-overflow:initial;
 }
 
 img.img{
@@ -42,7 +47,7 @@ section.menu{
   position:relative;
   margin-top:-50px;
   width:100%;
-  border-radius:30px 30px;
+  border-radius:30px 30px 0px 0px;
   background-color:#f2f2f2;}
   
   div.titre{
@@ -125,7 +130,7 @@ div.carte{
     animation: 1000ms both ease-in-out ;
     animation-name: deplacement;
     background-color:white;
-    border-radius:30px;
+    border-radius:25px;
   margin-bottom:20px;
   display:flex;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.5);
@@ -150,7 +155,7 @@ div.text{
   padding-top:10px;
   padding-bottom:10px;
   margin-top:5px;
-  margin-left:3%;
+  margin-left:5%;
   width:80%;
   text-overflow:unset;
   overflow:hidden;
@@ -206,7 +211,6 @@ div.valid{
 
 div.but{
   margin-top:30px;
-  margin-bottom:30px;
   text-align:center;
   width:100%;
 }
@@ -214,7 +218,7 @@ div.but{
 article.a1:hover .valid {
   opacity:100%;
   right:-7%;
-  border-radius:0 30px 30px 0;
+  border-radius:0 25px 25px 0;
   transform-origin:right;
   transition: transform 1s ease-in-out;
   transform:translateX(-40%); 

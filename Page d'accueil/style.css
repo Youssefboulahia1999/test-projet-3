@@ -53,10 +53,17 @@ div.apresanim{
 }}
 
 p {
-  margin: 0px;
+  font-family: 'Roboto';
+  margin: 0px
+}
+h2{font-family: 'Roboto';}
+
+h4{
+  font-family: 'Roboto';
 }
 
 h1 {
+  font-family: 'Roboto';
   margin: 0px;
 }
 
@@ -68,18 +75,11 @@ header {
   padding-bottom: 20px;
 }
 
-input.top{
- text-align:center;
- font-family: 'Shrikhand', cursive;
- color:black;
- opacity:100%;
- border-radius:35px;
- font-size:40px;
-}
 
-img.logo {
-  width: 30%;
+p.logo{
+  font-size:250%;
   margin: auto;
+  font-family: 'Shrikhand', cursive;
 }
 
 div.p1 {
@@ -98,9 +98,13 @@ div.icone1 {
   margin-bottom: auto;
   margin-right: 1%;
 }
-input.local{text-align:center;
-  font-family: 'Roboto', sans-serif;
+input.local{
+  font-size:18px;
+  font-weight: 700;
+  background-color:transparent;
+  text-align:center;
   border-radius:25px;
+  border:none;
 
 }
 
@@ -148,8 +152,8 @@ div.p3 {
 }
 
 div.pp1 {
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top:10px;
+  padding-bottom:10px;
   margin-top: 15px;
   width: 60%;
   display: flex;
@@ -159,6 +163,8 @@ div.pp1 {
 }
 
 div.pp2 {
+  padding-top:10px;
+  padding-bottom:10px;
   margin-top: 15px;
   width: 60%;
   margin-left: 5%;
@@ -170,6 +176,8 @@ div.pp2 {
 }
 
 div.pp3 {
+  padding-top:10px;
+  padding-bottom:10px;
   margin-top: 15px;
   width: 60%;
   display: flex;
@@ -325,7 +333,7 @@ div.ll1{
 }
 div.text{
   justify-content:space-between;
-  margin-bottom:30px;
+ 
 }
 
 article.a1{
@@ -367,13 +375,11 @@ article.a4{
 footer{
 color:white;
 background-color:black;
+opacity:80%;
 padding-top:30px;
 padding-left:2%;
 }
-h2{
-  font-family: 'Shrikhand', cursive;
-}
-
+h2.footer{ font-family: 'Shrikhand', cursive;}
 
 div.la{
   display:flex;
@@ -410,8 +416,12 @@ a{text-decoration:none; }
 @media screen and (max-width:900px){
   div.p3{display:block;
   align-items:center;}
+  h2.f1{text-align:left;margin-left:10%;}
+  div.icone2{margin-right:0%;}
+  h4.filtre{width:100%;text-align: center;}
   div.l1{display:block;}
   div.l2{display:block;}
+  h2.p4{text-align:left;margin-left:10%;}
   article.a1{margin-left:5%;margin-right:5%;width:90%;}
   article.a2{margin-left:5%;margin-right:5%;width:90%;margin-top: 30px;}
   article.a3{margin-left:5%;margin-right:5%;width:90%;}
@@ -420,6 +430,8 @@ a{text-decoration:none; }
   div.pp2{margin-left:0px;margin-right:0px;width:100%;}
   div.pp3{margin-right:0px;width:100%;}
   div.top{margin-left:-2%;}
-  p.nouveau{margin-left:60%;width:auto;overflow:hidden;}
-  
+  p.nouveau{margin-left:0%;margin-left:70%;width:70px; overflow:hidden;}
+}
+@media screen and (max-width:520px) {
+  p.nouveau{margin-left:0%;margin-left:60%;}
 }
