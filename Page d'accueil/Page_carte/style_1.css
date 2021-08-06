@@ -233,6 +233,7 @@ input.but{
   font-size:15px;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:15px;
   border-radius: 35px;
   border: none;
   padding: 15px;
@@ -277,6 +278,7 @@ div.proposer{color:white;display:flex;}
 div.devenir{color:white;display:flex;}
 ul{list-style:none;
 }
+a.footer{font-size:15px;}
 
 p.pa{
   overflow:initial;
